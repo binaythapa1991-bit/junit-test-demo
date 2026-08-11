@@ -7,7 +7,7 @@ public class calculator {
 
         public int divide(int a, int b) {
             return a / b;
-            // testing
+            // testing calculation
         }
     }
 
