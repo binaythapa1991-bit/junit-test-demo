@@ -15,8 +15,13 @@ class CalculatorTest {
     @Test
     void testDivision() {
         assertEquals(2, calc.divide(10, 5));
+
     }
 
+    @Test
+    void testMultiply() {
+        assertEquals(2, calc.multiply(1, 2));
+    }
     @Test
     void testDivisionByZero() {
         assertThrows(ArithmeticException.class, () -> calc.divide(10, 0));
