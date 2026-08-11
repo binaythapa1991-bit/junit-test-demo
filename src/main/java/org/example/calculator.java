@@ -9,7 +9,6 @@ public class calculator {
             return a / b;
 
 
-            // testing calculation
         }
 
     public int multiply(int a, int b) {
