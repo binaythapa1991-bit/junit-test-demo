@@ -20,7 +20,7 @@ class CalculatorTest {
 
     @Test
     void testMultiply() {
-        assertEquals(5, calc.multiply(2, 10));
+        assertEquals(10, calc.multiply(2, 5));
     }
     @Test
     void testDivisionByZero() {
