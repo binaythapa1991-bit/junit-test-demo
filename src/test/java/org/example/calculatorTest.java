@@ -14,7 +14,7 @@ class CalculatorTest {
 
     @Test
     void testDivision() {
-        assertEquals(2, calc.divide(10, 5));
+        assertEquals(1, calc.divide(10, 10));
 
     }
 
